@@ -17,7 +17,7 @@ FTDI USBシリアル変換アダプター
 ## 開発の手順
 
 STM32CubeMXを使ってピンアウト、クロックコンフィグレーション、USARTパラメーター、USART NVICの設定を行い、System Workbench for STM32用のプロジェクトを生成する。
-USART1のRXをPB7にTXをPB8にそれぞれアサインした。
+USART1のRXをPB7にTXをPB6にそれぞれアサインした。
 
 生成されたプロジェクトをSystem Workbench for STM32で開き、main.cを以下の箇所を編集する。
 
